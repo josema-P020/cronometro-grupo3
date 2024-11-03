@@ -11,7 +11,7 @@ class integrantes {
 
 let usua1 = new integrantes ("", "Pérez José María","31","actualmente estoy estudiando para programador. Mis pasatiempos son hacer actividades al aire libre y reunirme con amigos. Soy fan de los animales y me gusta mucho la pizza.","https://github.com/josema-P020","01");
 
-let usua2 = new integrantes ("");
+let usua2 = new integrantes ("", "Gonzalo Salazar Gonzalez", "27", "Estudio programación web en rolling code, y soy técnico en una empresa de sistemas de comunicación. Hincha y socio del Club Atletico Boca Juniors", "https://github.com/GonzaloSG12", "02");
 
 let usua3 = new integrantes ("");
 
