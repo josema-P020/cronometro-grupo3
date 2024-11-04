@@ -11,15 +11,16 @@ class Integrantes {
         const somos = document.getElementById("somos");
 
         const section = document.createElement("section");
-        section.classList.add("row", "integrantes", "d-flex", "justify-content-center", "align-items-center", "m-5");
+        section.classList.add("col-md-4", "col-sm-6", "col-12", "my-3", "d-flex", "justify-content-center");
 
         section.innerHTML = `
-            <div class="card col-12 m-3" style="width: 18rem;">
-                <img src="${this.foto || 'default.jpg'}" class="card-img-top mt-2" alt="${this.nombre || 'Sin nombre'}">
-                <div class="card-body fondo">
-                    <h5 class="card-title">${this.nombre || 'Sin nombre'}</h5>
-                    <p class="card-text">Tengo ${this.edad || 'N/A'}, ${this.descripcion || 'Sin descripción'}</p>
-                    <a href="${this.git || '#'}" class="btn fa-brands fa-github fa-2xl" target="_blank"></a>
+            <div class="card tarjeta">
+                <img src="${this.foto}" class="card-img-top tarjeta-img-top" alt="${this.nombre}">
+                <div class="card-body tarjeta-body">
+                    <h5 class="card-title tarjeta-title">${this.nombre}</h5>
+                    <p class="card-text tarjeta-text">Edad: ${this.edad}</p>
+                    <p class="card-text tarjeta-text">${this.descripcion}</p>
+                    <a href="${this.git}" class="btn bot fa-brands fa-github fa-lg" target="_blank"> GitHub</a>
                 </div>
             </div>`;
          
@@ -27,10 +28,10 @@ class Integrantes {
     }
 }
 
-// Crear instancias de Integrantes
+
 let usua1 = new Integrantes(
     "https://scontent.ftuc2-1.fna.fbcdn.net/v/t39.30808-6/301960569_6076934522320097_1591571299176416663_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeECdIJ8qDci1l_PUUSDlCSp6g0AMfabJorqDQAx9psmikWD929UcwNZJ0RPW1Qee9taHFJWB7vdb8uf_LJXXxB4&_nc_ohc=td5w11RHVpkQ7kNvgEFD3bi&_nc_zt=23&_nc_ht=scontent.ftuc2-1.fna&_nc_gid=A88If4ctfJrI8e20G3Dwern&oh=00_AYCOCD4Lj_osSPiVGlLG597s__HDsu_nbmUTz-3OvsQ6bQ&oe=672BE0BB",
-    "Pérez José María",
+    "José María Pérez",
     "31",
     "Actualmente estoy estudiando para programador. Mis pasatiempos son hacer actividades al aire libre y reunirme con amigos. Soy fan de los animales y me gusta mucho la pizza.",
     "https://github.com/josema-P020"
@@ -52,12 +53,13 @@ let usua3 = new Integrantes(
     "https://github.com/matperez01"
 );
 
-let usua4 = new Integrantes();
-let usua5 = new Integrantes();
+let usua4 = new Integrantes("https://rollinggamers.netlify.app/Assets/img/gonzaloSalazarGonzalez.jpg", "Gonzalo Salazar Gonzalez","","Estudio programación web en rolling code, y soy técnico en una empresa de sistemas de comunicación. Hincha y socio del Club Atletico Boca Juniors","https://github.com/GonzaloSG12"
 
-// Llamar al método para cada instancia
+);
+let usua5 = new Integrantes("https://ca.slack-edge.com/THQU1MGPN-U06R8FCDCQG-a914117f0358-512","Lucía Gallardo","","Líder de marketing y comunicación. Su enfoque en la promoción y en conectar con la audiencia es clave para el crecimiento y éxito de la plataforma.","");
+
 usua1.quienesSomos();
 usua2.quienesSomos();
+usua5.quienesSomos();
 usua3.quienesSomos();
 usua4.quienesSomos();
-usua5.quienesSomos();
