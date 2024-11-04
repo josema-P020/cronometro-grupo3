@@ -53,10 +53,10 @@ let usua3 = new Integrantes(
     "https://github.com/matperez01"
 );
 
-let usua4 = new Integrantes("https://rollinggamers.netlify.app/Assets/img/gonzaloSalazarGonzalez.jpg", "Gonzalo Salazar Gonzalez","","Estudio programación web en rolling code, y soy técnico en una empresa de sistemas de comunicación. Hincha y socio del Club Atletico Boca Juniors","https://github.com/GonzaloSG12"
+let usua4 = new Integrantes("https://rollinggamers.netlify.app/Assets/img/gonzaloSalazarGonzalez.jpg", "Gonzalo Salazar Gonzalez","27","Estudio programación web en rolling code, y soy técnico en una empresa de sistemas de comunicación. Hincha y socio del Club Atletico Boca Juniors","https://github.com/GonzaloSG12"
 
 );
-let usua5 = new Integrantes("https://ca.slack-edge.com/THQU1MGPN-U06R8FCDCQG-a914117f0358-512","Lucía Gallardo","","Líder de marketing y comunicación. Su enfoque en la promoción y en conectar con la audiencia es clave para el crecimiento y éxito de la plataforma.","");
+let usua5 = new Integrantes("https://ca.slack-edge.com/THQU1MGPN-U06R8FCDCQG-a914117f0358-512","Lucía Gallardo","24","Líder de marketing y comunicación. Su enfoque en la promoción y en conectar con la audiencia es clave para el crecimiento y éxito de la plataforma.","");
 
 usua1.quienesSomos();
 usua2.quienesSomos();
