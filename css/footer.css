@@ -9,7 +9,7 @@ body {
     flex-grow: 1;
   }
   .colorFooter {
-    background-color: rgb(28, 27, 26);
+    background-color: rgb(232, 167, 102);
   }
   
   .logoSize {
@@ -19,11 +19,12 @@ body {
   
   .socialSize {
     font-size: 23px;
+
   }
   
   a {
     text-decoration: none;
-    color: rgb(207, 199, 199);
+    color: rgb(58, 61, 74);
   }
   
   .jost {
@@ -31,5 +32,6 @@ body {
     font-optical-sizing: auto;
     font-weight: 100px;
     font-style: normal;
-    color: azure;
+    font-size: 17px;
+    color: rgb(15, 23, 23);
   }
