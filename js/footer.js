@@ -41,3 +41,5 @@ function Footer() {
     `;
     footer[0].appendChild(section);
 }
+
+export { Footer }
