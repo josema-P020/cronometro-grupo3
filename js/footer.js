@@ -1,7 +1,7 @@
 function Footer() {
     const footer = document.getElementsByTagName("footer");
     const section = document.createElement("section");
-    section.classList.add("colorFooter, container-fluid, text-center")
+    section.classList.add("colorFooter", "container-fluid", "text-center")
     section.innerHTML =`
             <article class="row my-4 my-md-2 pt-md-4">
                 <div class="col-sm-12 col-md-3 mb-2 mb-md-0">

@@ -1,8 +1,8 @@
 function NavBar() {
-    const header = document.getElementsByTagName("header");
-    const nav = document.createElement("nav");
-    nav.classList.add("navbar, fixed-top")
-    nav.innerHTML =`
+ const header = document.getElementsByTagName("header");
+ const nav = document.createElement("nav");
+ nav.classList.add("navbar", "fixed-top")
+ nav.innerHTML =`
     <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="/img/cronom.png" alt="Logo" width="120" height="70" class="d-inline-block align-text-center">
           Cronómetro</a>
@@ -31,7 +31,7 @@ function NavBar() {
           </div>
         </div>
     `;
-    header[0].appendChild(nav);
+  header[0].appendChild(nav);
 }
 
 export { NavBar }
