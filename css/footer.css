@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%s;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  .colorFooter {
+    background-color: rgb(232, 167, 102);
+  }
+  
+  .logoSize {
+    width: 20vh;
+    height: 16vh;
+  }
+  
+  .socialSize {
+    font-size: 23px;
+
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(58, 61, 74);
+  }
+  
+  .jost {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 17px;
+    color: rgb(15, 23, 23);
+  }
