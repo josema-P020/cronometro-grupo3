@@ -9,7 +9,7 @@ body {
     flex-grow: 1;
   }
   .colorFooter {
-    background-color: rgb(232, 167, 102);
+    background-color: rgba(232, 167, 102, 0.795);
   }
   
   .logoSize {

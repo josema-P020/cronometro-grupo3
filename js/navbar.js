@@ -1,10 +1,10 @@
 function NavBar() {
  const header = document.getElementsByTagName("header");
  const nav = document.createElement("nav");
- nav.classList.add("navbar", "fixed-top")
+ nav.classList.add("navbar", "fixed-top","mb-5")
  nav.innerHTML =`
     <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="/img/cronom.png" alt="Logo" width="120" height="70" class="d-inline-block align-text-center">
+          <a class="navbar-brand" href="/index.html"><img src="/img/cronom.png" alt="Logo" width="120" height="70" class="d-inline-block align-text-center">
           Cronómetro</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@ function NavBar() {
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Quienes somos</a>
+                  <a class="nav-link active" aria-current="page" href="./html/quienesSomos.html">Quienes somos</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Nuestras redes</a>

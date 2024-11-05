@@ -1,7 +1,7 @@
 function Footer() {
     const footer = document.getElementsByTagName("footer");
     const section = document.createElement("section");
-    section.classList.add("colorFooter", "container-fluid", "text-center")
+    section.classList.add("colorFooter", "text-center")
     section.innerHTML =`
             <article class="row my-4 my-md-2 pt-md-4">
                 <div class="col-sm-12 col-md-3 mb-2 mb-md-0">
@@ -11,7 +11,7 @@ function Footer() {
                     <h5 class="jost">Soporte</h5>
                     <ul class="list-unstyled d-flex justify-content-center flex-md-column">
                         <li>
-                            <a class="jost pe-2" href="../pages/nosotros.html">Quienes Somos</a>
+                            <a class="jost pe-2" href="./html/quienesSomos.html">Quienes Somos</a>
                         </li>
                         <li>
                             <a class="jost ps-2 ps-md-0" href="../pages/error404.html">Ayuda</a>

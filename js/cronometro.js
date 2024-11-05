@@ -66,3 +66,4 @@ function cronometro () {
 		Horas.innerHTML = horas;
 	}
 }
+export {cronometro};
