@@ -3,8 +3,8 @@ function Footer() {
     const section = document.createElement("section");
     section.classList.add("colorFooter", "text-center")
     section.innerHTML =`
-            <article class="row my-4 my-md-2 pt-md-4">
-                <div class="col-sm-12 col-md-3 mb-2 mb-md-0">
+            <article class="row ">
+                <div class="col-sm-12 col-md-3 ">
                     <img class="logoSize" src="/img/cronometro-.png" alt="logo-cronometro" />
                 </div>
                 <div class="col-sm-12 col-md-3">

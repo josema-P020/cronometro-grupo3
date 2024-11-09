@@ -1,20 +1,12 @@
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    width: 100%s;
-  }
-  
-  main {
-    flex-grow: 1;
-  }
+
+
   .colorFooter {
     background-color: rgba(232, 167, 102, 0.795);
   }
   
   .logoSize {
-    width: 20vh;
-    height: 16vh;
+    width: 100px;
+    height: 100px;
   }
   
   .socialSize {
