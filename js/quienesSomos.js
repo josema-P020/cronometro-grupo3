@@ -30,7 +30,7 @@ class Integrantes {
 
 
 let usua1 = new Integrantes(
-    "https://scontent.ftuc2-1.fna.fbcdn.net/v/t39.30808-6/301960569_6076934522320097_1591571299176416663_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeECdIJ8qDci1l_PUUSDlCSp6g0AMfabJorqDQAx9psmikWD929UcwNZJ0RPW1Qee9taHFJWB7vdb8uf_LJXXxB4&_nc_ohc=td5w11RHVpkQ7kNvgEFD3bi&_nc_zt=23&_nc_ht=scontent.ftuc2-1.fna&_nc_gid=A88If4ctfJrI8e20G3Dwern&oh=00_AYCOCD4Lj_osSPiVGlLG597s__HDsu_nbmUTz-3OvsQ6bQ&oe=672BE0BB",
+    "https://scontent.ftuc2-1.fna.fbcdn.net/v/t39.30808-6/301960569_6076934522320097_1591571299176416663_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeECdIJ8qDci1l_PUUSDlCSp6g0AMfabJorqDQAx9psmikWD929UcwNZJ0RPW1Qee9taHFJWB7vdb8uf_LJXXxB4&_nc_ohc=vgtTY__It9oQ7kNvgGjh9yy&_nc_zt=23&_nc_ht=scontent.ftuc2-1.fna&_nc_gid=AWgB9tBRNMpIZ0qv1e7QaT0&oh=00_AYDwQ5BpBJh9oAInkm-7Qyk9Mi8aiOB3wyWuPqkmQ-FZYw&oe=674E5FFB",
     "José María Pérez",
     "31",
     "Actualmente estoy estudiando para programador. Mis pasatiempos son hacer actividades al aire libre y reunirme con amigos. Me gusta mucho la pizza.",
